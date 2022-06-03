@@ -6,3 +6,73 @@
     color: red;
 
 }
+
+a[href]{
+    color: blue;
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+#borde1{
+    border-style: dotted;
+    visibility: hidden;
+}
+
+#borde2{
+    border-style: dashed;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#borde3{
+    border-style: solid;
+    margin: 100px 20px 50px 70px;
+}
+
+#borde4{
+    border-style: double;
+    margin: 20px 50px; 
+}
+
+#borde5{
+    border-style: groove;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+#borde6{
+    border-style: ridge;
+    padding: 70px;
+    height: 100px;
+    width: 350px;
+}
+
+.borde7{
+    border-style: solid;
+    height: 500px;
+    width: 320px;
+}
+
+.borde8{
+    border-style: solid;
+    height: 550px;
+    width: 950px;
+}
+
+#borde9{
+    border-style: none;
+}
+
+#borde10{
+    border-style: hidden;
+}
+
+#borde11{
+    border-style: dotted dashed solid none;
+    margin: 5px;
+}
