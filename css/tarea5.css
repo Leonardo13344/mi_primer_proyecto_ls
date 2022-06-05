@@ -1,0 +1,53 @@
+*{
+    font-family: cursive;
+}
+
+
+/* Selectores por elemento */
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Selectores por clase */
+
+.unOrderList{
+    list-style-type: square;
+    outline: groove;
+    outline-color: rebeccapurple;
+}
+
+.orderList{
+    list-style-type: upper-latin;
+    outline: ridge;
+    outline-color: blue;
+}
+
+/* Selectores por id */
+#title2{
+    text-align: center;
+    position: static;
+}
+
+#listItem{
+    text-decoration: underline rebeccapurple;
+}
+
+/* Selectores por atributo */
+
+[placeholder]{
+    text-shadow: 2px 2px 5px red;
+
+}
+
+[src]{
+    float: right;
+    width: 170px;
+    height: 170px;
+    margin-left: 15px;
+}
