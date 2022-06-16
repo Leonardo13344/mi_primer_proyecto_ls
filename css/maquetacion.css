@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+
+}
+
+label{
+    display: block;
+}
+
+input:hover,select:hover{
+    background-color: cornflowerblue;
+}
+
+input:focus,select:focus{
+    background-color: darkseagreen;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1em;
+    /* 1em representa 16px */
+    text-transform: uppercase;
+}
+
+#idBotonP{
+    text-align: center;
+}
+
+.enLinea{
+    display: inline;
+}
+
+fieldset{
+    margin: 2em;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

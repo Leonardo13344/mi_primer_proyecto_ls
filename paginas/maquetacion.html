@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/maquetacion.css">
+    <title>Maquetación</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Ingreso</h1>
+    </header>
+
+    <form action="">
+        <fieldset>
+            <!--Para definir sección-->
+            <legend>Datos Personales</legend>
+            <p>
+                <label for="idNombre">Nombre:</label>
+                <input type="text" id="idNombre" />
+                <label for="idApellido">Apellido:</label>
+                <input type="text" id="idApellido" />
+            </p>
+            <p>
+                <label for="idCorreo">Email:</label>
+                <input type="email" id="idCorreo" />
+                <label for="idFecha">Fecha Nacimiento:</label>
+                <input type="datetime-local" id="idFecha" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Domicilio</legend>
+            <p>
+                <label for="idPais">País:</label>
+                <select name="ciudad" id="idPais">
+                    <option value="ec">Ecuador</option>
+                    <option value="pr">Perú</option>
+                    <option value="ar">Argentina</option>
+                </select>
+                <label for="idCiudad">Ciudad:</label>
+                <select name="ciudad" id="idCiudad">
+                    <option value="q">Quito</option>
+                    <option value="g">Guayaquil</option>
+                    <option value="a">Ambato</option>
+                </select>
+            </p>
+            <p>
+                <label for="idPostal">Código Postal:</label>
+                <input type="text" name="" id="idPostal" />
+                <label for="idPostal">Código Postal:</label>
+                <input type="text" name="" id="idPostal" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Condiciones</legend>
+            <p>
+                <label for="idOfertas">Desea recibir ofertas:</label>
+                <!--Con el name pon a todos en un solo elemento para que solo se pueda seleccionar un solo elemento-->
+                <input type="radio" name="ofertas" id="ofertas1" value="1">
+                <label for="ofertas1" class="enLinea">Una vez al día</label>
+
+                <input type="radio" name="ofertas" id="ofertas2" value="2">
+                <label for="ofertas2" class="enLinea">Una vez al mes</label>
+
+                <input type="radio" name="ofertas" id="ofertas3" value="3">
+                <label for="ofertas3" class="enLinea">Una vez al año</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="idTerminos">
+                <label for="idTerminos" class="enLinea">Acepto los acuerdos definidos y que mi información pueda ser compartida en la
+                    web</label>
+            </p>
+        </fieldset>
+        <p id="idBotonP">
+            <input type="submit" name="" id="idBoton" value="Ingresar">
+        </p>
+    </form>
+
+</body>
+
+</html>
