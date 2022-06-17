@@ -1,0 +1,52 @@
+.bloque{
+    display: block;
+   
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1em;
+    /* 1 em = 16px */
+  
+}
+
+fieldset:hover{
+    background-color: yellowgreen;
+}
+
+input{
+    border: transparent;
+    border-bottom: 0.2em solid black;
+}
+
+.bordess{
+    border: transparent;
+    border-bottom: 0.2m solid black;
+}
+
+#idBotonP {
+
+    text-align: right;
+}
+#idBotonlP {
+
+    text-align: center;
+}
+
+.tablal{
+    margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+#idDivfg{
+    margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+input:focus,
+select:focus {
+    background-color: aqua;
+}
+
